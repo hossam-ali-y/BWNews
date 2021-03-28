@@ -1,0 +1,80 @@
+/* this is css style roles for news site */
+
+/*start rules header*/
+
+
+header{
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    transition:0.3s;
+	padding: 2px 2px 2px 2px;
+	box-sizing:content box;
+    width: 100%;
+    background-color:#B7B7B7;
+	display:flex;
+	flex-shrink:1;
+	/*align-items:center;*/
+	align-content:stretch;
+	/*justify-content:center;*/
+	flex-flow:row wrap;
+	text-align:center;
+	
+	
+}
+h2 {font-family: 'Segoe UI', Arial, sans-serif; font-weight: 400;padding:0 30px; margin: 0px 0;}
+
+.btn {
+width:120px;
+height:35px;
+    border: none;
+    color: white;
+    padding: 8px 33px;
+	margin:0px 0px;
+    text-align: center;
+    display:flex;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.success {background-color: #4CAF50 ;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #cfcfcf; color: black;} /* Gray */ 
+.default:hover {background: #bab9bc;}
+
+
+.default {background-color: #4a9c8c; color: white;} /* Gray */ 
+.default:hover {background: #359db3; color: black}
+
+.personal{
+background-color: #3ca23e;
+}
+/*end rules header*/
+
+/*start rules section*/
+
+/*end rules section*/
+
+/*start rules footer*/
+footer{
+widTH:100%;
+box-sizing:content box;
+background-color:black;
+color:white;
+display:flex;
+flex-flow:row wrap;
+justify-content: space-around;
+}
+.address{
+color:white;
+}
+/*end rules footer*/
