@@ -2,8 +2,6 @@
    @session_start();
    require_once"connectdb.php";//connect to db newsdb
    require_once"functions.php";
-
-  
 ?>
 <?PHP
 //if($_SERVER["REQUEST_METHOD"]=="POST"){
